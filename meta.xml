@@ -1,0 +1,8 @@
+<meta>
+    <info author="Lima" description="https://discord.gg/BN2sQgp" />
+    <script src="loginS.lua" type="server" />
+    <script src="loginC.lua" type="client" />
+
+    <file src="html/index.html" />
+    <file src="html/styles.css" />
+</meta>

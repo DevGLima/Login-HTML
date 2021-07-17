@@ -1,0 +1,56 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(45deg, cyan, yellow);
+}
+
+h1{
+    transform: translate(25%);
+}
+
+div{
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 5%;
+    border-radius: 0.5rem;
+    color: white;
+    box-shadow: 0px 0px 50px black;
+    animation: slidein 3s ease-in-out 1.5s;
+}
+
+@keyframes slidein {
+    from {
+        left: -30%;
+
+    }
+    to {
+        left: 50%;
+    }
+
+}
+
+input{
+    padding: 5%;
+    border: none;
+    outline: none;
+    cursor: text;
+    width: 100%;
+}
+button{
+    background-color: dodgerblue;
+    outline: none;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 5%;
+    width: 110%;
+}
+
+
+button:hover{
+    background-color: deepskyblue;
+    cursor: pointer;
+}
+
